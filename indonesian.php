@@ -4,7 +4,6 @@
  * WHMCS 8.2 Language Files 
  * Indonesia (id)
  *
- *
  * For instructions on overrides, please visit:
  * http://docs.whmcs.com/Language_Overrides
  *
@@ -19,58 +18,59 @@ if (!defined("WHMCS")) die("This file cannot be accessed directly");
 
 $_LANG['locale'] = "id_ID";
 
-$_LANG['accountinfo'] = "Account Information";
-$_LANG['accountstats'] = "Account Statistics";
-$_LANG['addfunds'] = "Add Funds";
-$_LANG['addfundsamount'] = "Amount to Add";
-$_LANG['addfundsmaximum'] = "Maximum Deposit";
-$_LANG['addfundsmaximumbalance'] = "Maximum Balance";
-$_LANG['addfundsmaximumbalanceerror'] = "Maximum Balance amount is";
-$_LANG['addfundsmaximumerror'] = "Maximum Deposit amount is";
-$_LANG['addfundsminimum'] = "Minimum Deposit";
-$_LANG['addfundsminimumerror'] = "Minimum Deposit amount is";
-$_LANG['addmore'] = "Add More";
-$_LANG['addtocart'] = "Add to Cart";
-$_LANG['affiliatesactivate'] = "Activate Affiliate Account";
-$_LANG['affiliatesamount'] = "Amount";
-$_LANG['affiliatesbalance'] = "Current Balance";
-$_LANG['affiliatesbullet1'] = "Receive an initial bonus deposit in your affiliate account of";
-$_LANG['affiliatesbullet2'] = "of every payment each customer you refer to us makes for the entire duration of their hosting account";
-$_LANG['affiliatescommission'] = "Commission";
-$_LANG['affiliatesdescription'] = "Join our affiliate program or view earnings";
-$_LANG['affiliatesdisabled'] = "We do not currently offer an affiliate system to our clients.";
-$_LANG['affiliatesearn'] = "Earn";
-$_LANG['affiliatesearningstodate'] = "Total Earnings to Date";
-$_LANG['affiliatesfootertext'] = "When you refer someone to our website with your unique referral ID, a cookie is placed on their computer containing this ID so if they bookmark the site and come back later you will still receive the commission.";
-$_LANG['affiliateshostingpackage'] = "Hosting Package";
-$_LANG['affiliatesintrotext'] = "Activate your affiliate account today to:";
-$_LANG['affiliateslinktous'] = "Link to Us";
-$_LANG['affiliatesnosignups'] = "You have currently not received any signups";
-$_LANG['affiliatesrealtime'] = "These statistics are in real time and update instantly";
-$_LANG['affiliatesreferallink'] = "Your Unique Referral Link";
-$_LANG['affiliatesreferals'] = "Your referrals";
-$_LANG['affiliatesregdate'] = "Registration Date";
-$_LANG['affiliatesrequestwithdrawal'] = "Request Withdrawal";
-$_LANG['affiliatessignupdate'] = "Signup Date";
+$_LANG['accountinfo'] = "Informasi Akun";
+$_LANG['accountstats'] = "Statistik Akun";
+$_LANG['addfunds'] = "Tambah Saldo";
+$_LANG['addfundsamount'] = "Jumlah Untuk Ditambahkan";
+$_LANG['addfundsmaximum'] = "Maksimal Deposit";
+$_LANG['addfundsmaximumbalance'] = "Maksimal Saldo";
+$_LANG['addfundsmaximumbalanceerror'] = "Maksimal Jumlah saldo";
+$_LANG['addfundsmaximumerror'] = "Jumlah Deposit maksimals adalah";
+$_LANG['addfundsminimum'] = "Minimal Deposit";
+$_LANG['addfundsminimumerror'] = "Jumlah Deposit minimal adalah";
+$_LANG['addmore'] = "Tambahkan Lainnya";
+$_LANG['addtocart'] = "Masukan Ke Keranjang";
+$_LANG['affiliatesactivate'] = "Aktifkan Akun Afiliasi";
+$_LANG['affiliatesamount'] = "Jumlah";
+$_LANG['affiliatesbalance'] = "Saldo Saat Ini";
+$_LANG['affiliatesbullet1'] = "Terima setoran bonus awal di akun afiliasi Anda sebesar";
+$_LANG['affiliatesbullet2'] = "setiap pembayaran klien yang anda arahkan kepada kami selama masa layanan hosting mereka";
+$_LANG['affiliatescommission'] = "Komisi";
+$_LANG['affiliatesdescription'] = "Bergabung dengan program afiliasi atau lihat pendapatan";
+$_LANG['affiliatesdisabled'] = "Saat ini kami tidak menawarkan program afiliasi kepada klien kami.";
+$_LANG['affiliatesearn'] = "Pendapatan";
+$_LANG['affiliatesearningstodate'] = "Total Pendapatan Sampai Tanggal";
+$_LANG['affiliatesfootertext'] = "Ketika anda merekomendasikan web kami dengan ref ID, website cookie akan tersimpan di komputer mereka yang berisi ID anda jadi ketika mereka bookmark website kami, dan mereka melakukan order anda akan mendapatkan komisi.";
+$_LANG['affiliateshostingpackage'] = "Paket Hosting";
+$_LANG['affiliatesintrotext'] = "Aktivasi akun afiliasi anda hingga:";
+$_LANG['affiliateslinktous'] = "Link Ke Kami";
+$_LANG['affiliatesnosignups'] = "Anda belum mempunyai pendaftar dari referal anda";
+$_LANG['affiliatesrealtime'] = "Statistik ini dalam waktu nyata dan terupdate otomatis";
+$_LANG['affiliatesreferallink'] = "Tautan Unik Rejukan Anda";
+$_LANG['affiliatesreferals'] = "Referal Anda";
+$_LANG['affiliatesregdate'] = "Tanggal Pendaftaran";
+$_LANG['affiliatesrequestwithdrawal'] = "Permintan Pencairan";
+$_LANG['affiliatessignupdate'] = "Tanggal Pendaftaran";
 $_LANG['affiliatesstatus'] = "Status";
-$_LANG['affiliatestitle'] = "Affiliates";
-$_LANG['affiliatesvisitorsreferred'] = "Number of Visitors Referred";
-$_LANG['affiliateswithdrawalrequestsuccessful'] = "Your request for a withdrawal has been submitted. You will be contacted shortly.";
-$_LANG['affiliateswithdrawn'] = "Total Amount Withdrawn";
-$_LANG['all'] = "All";
-$_LANG['alreadyregistered'] = "Already Registered?";
-$_LANG['announcementsdescription'] = "View our latest news & announcements";
-$_LANG['announcementsnone'] = "No Announcements to Display";
-$_LANG['announcementsrss'] = "View RSS Feed";
-$_LANG['announcementstitle'] = "Announcements";
-$_LANG['announcementscontinue'] = "Continue reading";
-$_LANG['bannedbanexpires'] = "Ban Expires";
-$_LANG['bannedbanreason'] = "Ban Reason";
-$_LANG['bannedhasbeenbanned'] = "has been banned";
-$_LANG['bannedtitle'] = "IP Banned";
-$_LANG['bannedyourip'] = "Your IP";
-$_LANG['cartaddons'] = "Addons";
-$_LANG['cartbrowse'] = "Browse Products &amp; Services";
+$_LANG['affiliatestitle'] = "Afiliasi";
+$_LANG['affiliatesvisitorsreferred'] = "Jumlah pengunjung yang dirujuk";
+$_LANG['affiliateswithdrawalrequestsuccessful'] = "Permintaan pencairan anda sudah dikirim. Anda akan dihubungi secepatnya.";
+$_LANG['affiliateswithdrawn'] = "Total jumlah yang ditarik";
+$_LANG['all'] = "SEMUA";
+$_LANG['alreadyregistered'] = "Sudah Terdaftar?";
+
+$_LANG['announcementsdescription'] = "Lihat berita & pengumuman";
+$_LANG['announcementsnone'] = "Tidak ada Pengumuman untuk Ditampilkan";
+$_LANG['announcementsrss'] = "Lihat RSS Feed";
+$_LANG['announcementstitle'] = "Pengumuman";
+$_LANG['announcementscontinue'] = "Lanjutkan Membaca";
+$_LANG['bannedbanexpires'] = "Blokir Sudah Berakhir";
+$_LANG['bannedbanreason'] = "Alasan Blokir";
+$_LANG['bannedhasbeenbanned'] = "telah di blokir";
+$_LANG['bannedtitle'] = "Blok IP";
+$_LANG['bannedyourip'] = "IP Anda";
+$_LANG['cartaddons'] = "Tambahan/Addons";
+$_LANG['cartbrowse'] = "Lihat Produk &amp; Layanan";
 $_LANG['cartconfigdomainextras'] = "Configure Domain Extras";
 $_LANG['cartconfigoptionsdesc'] = "This product/service has some options which you can choose from below to customise your order.";
 $_LANG['cartconfigserver'] = "Configure Server";
