@@ -1,27 +1,23 @@
+
 <?php
 /**
- * WHMCS Language File
- * English (en)
+ * WHMCS 8.2 Language Files 
+ * Indonesia (id)
  *
- * Please Note: These language files are overwritten during software updates
- * and therefore editing of these files directly is not advised. Instead we
- * recommend that you use overrides to customise the text displayed in a way
- * which will be safely preserved through the upgrade process.
  *
  * For instructions on overrides, please visit:
- *   https://developers.whmcs.com/languages/overrides/
+ * http://docs.whmcs.com/Language_Overrides
  *
  * @package    WHMCS
- * @author     WHMCS Limited <development@whmcs.com>
- * @copyright  Copyright (c) WHMCS Limited 2005-2018
- * @license    https://www.whmcs.com/license/ WHMCS Eula
+ * @author     JetDino
+ * @copyright  Copyright (c) Jetdino 2021
  * @version    $Id$
- * @link       https://www.whmcs.com/
+ * @link       http://www.jetdino.com/
  */
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
 
-$_LANG['locale'] = "en_GB";
+$_LANG['locale'] = "id_ID";
 
 $_LANG['accountinfo'] = "Account Information";
 $_LANG['accountstats'] = "Account Statistics";
@@ -2059,35 +2055,35 @@ $_LANG['emailSent'] = 'Email Sent';
 $_LANG['resendEmail'] = 'Resend Verification Email';
 
 // Markdown Editor Help
-$_LANG['markdown']['title']= "Markdown Guide";
-$_LANG['markdown']['emphasis']= "Emphasis";
-$_LANG['markdown']['bold']= "bold";
-$_LANG['markdown']['italics']= "italics";
-$_LANG['markdown']['strikeThrough']= "strikethrough";
-$_LANG['markdown']['headers']= "Headers";
-$_LANG['markdown']['bigHeader']= "Big header";
-$_LANG['markdown']['mediumHeader']= "Medium header";
-$_LANG['markdown']['smallHeader']= "Small header";
-$_LANG['markdown']['tinyHeader']= "Tiny header";
-$_LANG['markdown']['lists']= "Lists";
-$_LANG['markdown']['genericListItem']= "Generic list item";
-$_LANG['markdown']['numberedListItem']= "Numbered list item";
-$_LANG['markdown']['links']= "Links";
-$_LANG['markdown']['textToDisplay']= "Text to display";
-$_LANG['markdown']['exampleLink']= "http://www.example.com";
-$_LANG['markdown']['quotes']= "Quotes";
-$_LANG['markdown']['thisIsAQuote']= "This is a quote.";
-$_LANG['markdown']['quoteMultipleLines']= "It can span multiple lines!";
-$_LANG['markdown']['tables']= "Tables";
-$_LANG['markdown']['columnOne']= "Column 1";
-$_LANG['markdown']['columnTwo']= "Column 2";
-$_LANG['markdown']['columnThree']= "Column 3";
-$_LANG['markdown']['withoutAligning']= "Or without aligning the columns...";
-$_LANG['markdown']['john']= "John";
-$_LANG['markdown']['doe']= "Doe";
-$_LANG['markdown']['male']= "Male";
-$_LANG['markdown']['mary']= "Mary";
-$_LANG['markdown']['smith']= "Smith";
+$_LANG['markdown']['title'] = "Markdown Guide";
+$_LANG['markdown']['emphasis'] = "Emphasis";
+$_LANG['markdown']['bold'] = "bold";
+$_LANG['markdown']['italics'] = "italics";
+$_LANG['markdown']['strikeThrough'] = "strikethrough";
+$_LANG['markdown']['headers'] = "Headers";
+$_LANG['markdown']['bigHeader'] = "Big header";
+$_LANG['markdown']['mediumHeader'] = "Medium header";
+$_LANG['markdown']['smallHeader'] = "Small header";
+$_LANG['markdown']['tinyHeader'] = "Tiny header";
+$_LANG['markdown']['lists'] = "Lists";
+$_LANG['markdown']['genericListItem'] = "Generic list item";
+$_LANG['markdown']['numberedListItem'] = "Numbered list item";
+$_LANG['markdown']['links'] = "Links";
+$_LANG['markdown']['textToDisplay'] = "Text to display";
+$_LANG['markdown']['exampleLink'] = "http://www.example.com";
+$_LANG['markdown']['quotes'] = "Quotes";
+$_LANG['markdown']['thisIsAQuote'] = "This is a quote.";
+$_LANG['markdown']['quoteMultipleLines'] = "It can span multiple lines!";
+$_LANG['markdown']['tables'] = "Tables";
+$_LANG['markdown']['columnOne'] = "Column 1";
+$_LANG['markdown']['columnTwo'] = "Column 2";
+$_LANG['markdown']['columnThree'] = "Column 3";
+$_LANG['markdown']['withoutAligning'] = "Or without aligning the columns...";
+$_LANG['markdown']['john'] = "John";
+$_LANG['markdown']['doe'] = "Doe";
+$_LANG['markdown']['male'] = "Male";
+$_LANG['markdown']['mary'] = "Mary";
+$_LANG['markdown']['smith'] = "Smith";
 $_LANG['markdown']['female'] = "Female";
 $_LANG['markdown']['displayingCode'] = "Displaying code";
 $_LANG['markdown']['spanningMultipleLines'] = "Or spanning multiple lines...";
